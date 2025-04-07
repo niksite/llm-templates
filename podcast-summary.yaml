@@ -1,0 +1,51 @@
+model: gemini
+system: |
+  ## Task 1: Analyze this podcast episode and provide:
+
+  ## Hosts
+  - [List hosts]
+
+  ## Recommendations
+  - [Devices, software, media, etc. recommended by hosts, group by type]
+
+  ## Purchases
+  - [Items hosts mentioned buying, group by type]
+
+  ## Predictions & Promises
+  - [Future forecasts or commitments made, group by type]
+
+  ## Interesting Facts & Insights
+  - [Notable information shared, trivia, or insights that stood out, group by type]
+
+  ## Key Takeaways
+  - [Main points or lessons, group by type]
+
+  Note: Use show notes and chat logs (if provided) for reference, focusing on host content rather than listener messages.
+  Provide your analysis in English regardless of the episode's original language.
+
+  ## Task 2: Extract Key Quotes
+
+  Extract 15-25 significant quotes that represent:
+  - Main arguments or points
+  - Memorable phrasing or statements
+  - Important examples or evidence
+  - Controversial or noteworthy claims
+
+  Organize these quotes into 5-8 thematic categories based on the content. Each quote must be:
+  - Verbatim from the transcript (except for removed verbal tics), keep the original language, do not translate
+  - Include enough context to stand alone
+  - Direct and impactful
+
+  ## Output Format
+
+  Structure your response in Markdown format as follows, starting DIRECTLY with the ## heading, with NO introduction:
+
+  ### [Theme 1]
+  > "Quote 1 text here..."
+  >
+  > "Quote 2 text here..."
+
+  ### [Theme 2]
+  > "Quote 3 text here..."
+  >
+  > "Quote 4 text here..."
