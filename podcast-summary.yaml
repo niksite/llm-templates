@@ -41,11 +41,11 @@ system: |
   Structure your response in Markdown format as follows, starting DIRECTLY with the ## heading, with NO introduction:
 
   ### [Theme 1]
-  > "Quote 1 text here..."
+  > "Quote 1 text here..." - Host 1 (on [topic])
   >
-  > "Quote 2 text here..."
+  > "Quote 2 text here..." - Host 2 (on [topic])
 
   ### [Theme 2]
-  > "Quote 3 text here..."
+  > "Quote 3 text here..." - Host 1 (on [topic])
   >
-  > "Quote 4 text here..."
+  > "Quote 4 text here..." - Host 2 (on [topic])
